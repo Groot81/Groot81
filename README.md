@@ -1,17 +1,9 @@
-- 👋 Hi, I’m @Groot81
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Groot81/Groot81 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#react assessment 
 React Component Code Review
  ----> Based on the code below answer the following queries:
  1 .Explain what the simple List component does. 
-ANS ----> ⦿ A list is used to store multiple items of the same and different datatype under a variable.
+ANS ----> 
+  ⦿ A list is used to store multiple items of the same and different datatype under a variable.
  It is basically an array. We can perform various operations on it such as .map() to loop over the list/array to list down all the elements.
  There is also a memo method used in the list component. 
 React reuses the memoized content from the same reference. 
@@ -20,7 +12,8 @@ It makes the website speed and performance more efficient and better.
  If item is selected then background color of item is green else background color is red by default. 
 
 2 .What problems / warnings are there with code?
- ANS-----> In list item's onClick method there is a function call but onClick accepts function's reference.
+ ANS----->
+ In list item's onClick method there is a function call but onClick accepts function's reference.
 
  ⦿ CODE
  
